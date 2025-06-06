@@ -40,5 +40,5 @@ query execution for table competitor_rankings,competitors & rankings;
   5) Count the number of competitors per country
   6) Find competitors with the highest points in the current week
 
-        after execution of queries for all the tables and web application is developed using streamlit library to visulaize the data 
+        after execution of queries for all the tables and web application is developed using streamlit library to visulaize the data from mysql tables
 
