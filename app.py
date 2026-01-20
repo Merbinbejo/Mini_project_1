@@ -113,7 +113,7 @@ with tab2:
             players_query="""SELECT 
                       c.name AS Name,
                       c.country AS Country,
-                      c.country_code,
+                      c.category_name AS category,
                       r.points AS Points,
                       r.competitions_played AS "No of Competitions Played",
                       r.c_rank AS "Rank",
@@ -129,6 +129,7 @@ with tab2:
             rank_query="""SELECT 
                         	c.name AS Name,
                         	c.country AS Country,
+                            c.category_name AS category,
                         	r.points AS Points,
                         	r.competitions_played AS "No of Competitions Played",
                             r.c_rank AS "Rank",
@@ -144,6 +145,7 @@ with tab2:
             country_query="""SELECT 
                         	c.name AS Name,
                         	c.country AS Country,
+                            c.category_name AS category,
                         	r.points AS Points,
                         	r.competitions_played AS "No of Competitions Played",
                         	r.c_rank AS "Rank",
